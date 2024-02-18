@@ -643,10 +643,13 @@ asset: {'total': 986168.3986742999, 'free': 493821.50417429995, 'locked': 492346
 asset: {'total': 984951.2562242998, 'free': 984951.2562242998, 'locked': 0.0}
 ...
 ```
-
-
-![示例图片](./order.png)
-
+```commandline
+可视化结果
+order.jpg:订单流可视化
+performance.jpg:策略性能表现
+```
+![示例图片](https://github.com/lihua179/strategy_std/blob/main/order.jpg)
+![示例图片](https://github.com/lihua179/strategy_std/blob/main/performance.jpg)
 
 
 
