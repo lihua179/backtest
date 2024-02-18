@@ -533,7 +533,7 @@ res:{'open':[11,11.1,11.2,11.05,...],
 [计算macd指标]
 def callback_kline_1s(self, kline: Kline):
     close_prices = self.get_live_array_1s(kline.symbol, 'close', 50)
-    macd, signal, hist = talib.MACD(np.array(close_prices).astype(float), fastperiod=12, slowperiod=26, signalperiod=9)
+    macd, signal, hist = talib.MACD(close_prices, fastperiod=12, slowperiod=26, signalperiod=9)
     print(macd[-1],signal[-1],hist[-1])
     
     #res:19.598217015940463 20.050940318076997 -0.45272330213653333
