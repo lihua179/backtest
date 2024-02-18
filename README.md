@@ -1,6 +1,5 @@
 # 回测系统文档 0.0.2
 
-
 [v-0.0.2]  
 ```commandline
 [update]
@@ -21,7 +20,7 @@
 ```commandline
 [append]
 文档内容:
-0.迅速上手
+0.快速上手
 1.程序架构以及策略关键函数
     订阅历史数据
     订阅动态数据(实时数据)
@@ -47,24 +46,10 @@
     完整的双均线demo
 ```
 
-### 0.迅速上手
+### 0.快速上手
 ```commandline
 # -*- coding: utf-8 -*-
-import time
-
-try:
-    from .strategy_std import StrategyStd, Kline, Close, DIRECTION_RATE
-except ImportError:
-    from strategy_std import StrategyStd, Kline, Close, DIRECTION_RATE
-
-# from strategy_std import StrategyStd, Kline, Close, DIRECTION_RATE
-try:
-    from .strategy_lib.kline_tar import KlineAgg
-except ImportError as e:
-    from strategy_lib.kline_tar import KlineAgg
-
-
-
+from strategy_std import StrategyStd, Kline, Close, DIRECTION_RATE
 
 class Strategy(StrategyStd):
     def __init__(self, params=None, *args, **kwargs):
