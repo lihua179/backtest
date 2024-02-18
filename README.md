@@ -1,5 +1,7 @@
 # 回测系统文档 0.0.2
-
+```commandline
+pip install strategy_std-0.0.2-py3-none-any.whl
+```
 [v-0.0.2]  
 ```commandline
 [update]
@@ -643,6 +645,7 @@ asset: {'total': 986168.3986742999, 'free': 493821.50417429995, 'locked': 492346
 asset: {'total': 984951.2562242998, 'free': 984951.2562242998, 'locked': 0.0}
 ...
 ```
+
 ```commandline
 可视化结果
 order.jpg:订单流可视化
