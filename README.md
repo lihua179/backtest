@@ -653,6 +653,7 @@ performance.jpg:策略性能表现
 ```
 ![示例图片](https://github.com/lihua179/strategy_std/blob/main/order.jpg)
 ![示例图片](https://github.com/lihua179/strategy_std/blob/main/performance.jpg)
+![示例图片](https://github.com/lihua179/strategy_std/blob/main/research.jpg)
 
 
 
