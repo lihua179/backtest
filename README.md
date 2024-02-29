@@ -650,6 +650,7 @@ asset: {'total': 984951.2562242998, 'free': 984951.2562242998, 'locked': 0.0}
 可视化结果
 order.jpg:订单流可视化
 performance.jpg:策略性能表现
+research.jpg:策略在线开发
 ```
 ![示例图片](https://github.com/lihua179/strategy_std/blob/main/order.jpg)
 ![示例图片](https://github.com/lihua179/strategy_std/blob/main/performance.jpg)
