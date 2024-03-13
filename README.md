@@ -657,6 +657,13 @@ research.jpg:策略在线开发
 ![示例图片](https://github.com/lihua179/strategy_std/blob/main/research.jpg)
 
 
+```commandline
+    rust版本即将到来...(20240331之前)
+    cpp版本即将到来...(20240431之前)
+```
+
+
+
 
 
 
